@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+$font-family: 'Poppins', sans-serif;
+@import 'header';
+@import 'hero';
+@import 'banner';
+@import 'recent';
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    font-family: $font-family;
+}
+header {
+    transition: background-color 0.8s ease;
+}
+.change {
+    background-color: rgba(0, 0, 0, 0.8);
+}

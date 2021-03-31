@@ -1,0 +1,28 @@
+header {
+    z-index: 100;
+    padding: 1.3rem 0;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .list-btn {
+        a {
+            color: #fff;
+            font-weight: 600;  
+            background-color: #49e4fa;  
+            padding: 6px 20px;
+            transition: all 0.3s ease;
+            &:hover {
+                text-decoration: none;
+                background-color: rgba(73, 228, 250, 0.2);
+                color: #49e4fa;
+            }
+        }
+    }
+}
